@@ -1,0 +1,36 @@
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 3rem auto;
+  }
+  
+  .card1{
+    padding: 20px;
+    text-align: start;
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(50, 49, 49, 0.1);
+    border: 1px solid gray;
+
+    .card-icon {
+      font-size: 50px; 
+      margin-bottom: 20px;
+    }
+  
+    .card-title {
+      font-size: 22px;
+      font-weight: bold;
+      
+    }
+  
+    .card-description {
+      color: #aaa7a7;
+      font-size: 18px;
+}
+}
